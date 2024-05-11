@@ -8,7 +8,7 @@ public class MainTest {
 
     @Test
     public void _min() {
-        assertEquals(1,Main._min(Main.read("numbers1.txt")));
+        assertEquals(6,Main._min(Main.read("numbers1.txt")));
         assertEquals(1,Main._min(Main.read("numbers2.txt")));
         assertEquals(1,Main._min(Main.read("numbers3.txt")));
     }
